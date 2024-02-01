@@ -1,8 +1,10 @@
 // Driver to find a maximum double in a list using a generic data structure 
 import java.util.Scanner;
+import java.io.File;
+import java.io.FileNotFoundException;
 
 class FindDMaxDriver {
-    public static void main(String args[]) {
+    public static void main(String args[]) throws FileNotFoundException {
 
         // now we have a generic class so we have to move
         // some tasks back to main - max, and checking for 
