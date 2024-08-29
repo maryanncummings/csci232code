@@ -7,7 +7,7 @@
  * 
  *  % java QueueExample < tobe2.txt 
  *  to be or not to be 
- *  Left of stack: that is 
+ *  Left in queue: that is 
  *
  ******************************************************************************/
 
@@ -38,7 +38,7 @@ public class QueueExample {
             }
         }
 
-        // print what's left on the stack
+        // print what's left in the queue 
         System.out.print("\nLeft on queue: ");
         while (!queue.isEmpty()) {
             System.out.print(queue.dequeue() + " ");
