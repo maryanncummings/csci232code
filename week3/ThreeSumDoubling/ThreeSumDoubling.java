@@ -49,8 +49,5 @@ public class ThreeSumDoubling {
             System.out.printf("%7d %f\n", n, time);
             
         }
-        double running_time_with_n = (time/(8000.0 * 8000.0 * 8000.0));
-        System.out.println("running time compared with N = " +
-                                running_time_with_n + " x N cubed");
     } 
 }
