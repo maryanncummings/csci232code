@@ -1,0 +1,12 @@
+item i
+T(N) = 6N + 4 log N + 4
+Big O(N)
+
+item ii
+T(N) = 3N + 4 log N
+Big O(N)
+
+item iii
+T(N) = 3(N log N) + 4 log N + 3
+Big O(N log N)
+
